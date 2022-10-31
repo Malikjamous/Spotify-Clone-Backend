@@ -1,0 +1,43 @@
+{
+  "name": "spotify-clone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.bevelop.de:bevelop-education/spotify-clone-backend.git"
+  },
+  "author": "bevelop GmbH",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^4.44.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/compression": "^1.7.0",
+    "@types/core-js": "^2.5.3",
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.6.4",
+    "@types/sequelize": "^4.28.5",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  }
+}
